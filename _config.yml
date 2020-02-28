@@ -7,7 +7,7 @@ permalink:           pretty
 title:               sky
 tagline:             ''
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://sky25o5.github.io
+url:                 https://sky25o5.github.io/
 baseurl:             /
 paginate:            5
 
@@ -15,7 +15,7 @@ paginate:            5
 author:
   name:              Lee KyungJu
   url:               https://sky25o5.github.io/
-  email:             markdotto@gmail.com
+  email:             kyungju2505@gmail.com
 
 # Custom vars
 version:             1.0.0
