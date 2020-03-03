@@ -331,6 +331,12 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
+.post-title-date {
+  display: block;
+  font-size: 12pt;
+  color: #9a9a9a;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;

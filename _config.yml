@@ -5,16 +5,16 @@ permalink:           pretty
 
 # Setup
 title:               sky
-tagline:             ''
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://sky25o5.github.io/
-baseurl:             /
-paginate:            5
+tagline:             'blog'
+description:         ''
+url:                 https://sky25o5.github.io
+baseurl:             ''
+paginate:            3
 
 # About/contact
 author:
   name:              Lee KyungJu
-  url:               https://sky25o5.github.io/
+  url:               https://sky25o5.github.io
   email:             kyungju2505@gmail.com
 
 # Custom vars
