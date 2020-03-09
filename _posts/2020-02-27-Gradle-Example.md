@@ -29,12 +29,44 @@ plugins {
 ```
 
 ## 2. [Repositories](https://docs.gradle.org/current/userguide/declaring_repositories.html)
-[자료 정리중](https://docs.gradle.org/current/userguide/dependency_management_for_java_projects.html)
+### 2.1 공용 저장소 종속성
+: 잘 알려진 공용 저장소는 세종류가 있다.  
+![publicRepositories](https://sky25o5.github.io/image/publicRepositories.png)
+
+#### 2.1.1 MavenCentral
+>[Maven Repository](https://mvnrepository.com/)  
+java opensouce library 제공
+```
+repositories {
+    mavenCentral()
+}
+```  
+
+#### 2.1.2 Jcenter
+>[Bintary Jcenter](https://bintray.com/bintray/jcenter)
+java opensouce library 제공
+```
+repositories {
+    jcenter()
+}
+```  
+
+#### 2.1.3 Google
+>[Google Maven repository](https://maven.google.com/web/index.html)
+Android SDK 및 Android 관련 library 제공
+```
+repositories {
+    google()
+}
+```  
+
+[참조](https://docs.gradle.org/current/userguide/declaring_repositories.html)   
+[...](https://docs.gradle.org/current/userguide/dependency_management_for_java_projects.html)
 
 ## 3. [Tasks](https://docs.gradle.org/current/userguide/tutorial_using_tasks.html)
 ### 3.1 task 등록
 ```
-tasks.register("somthingTask") {
+tasks.register("somethingTask") {
   doLast {
     println("hello")
   }
@@ -43,7 +75,7 @@ tasks.register("testTasK") {
   doFirst {
     println("Test First")
   }
-  dependsOn("somthingTask")
+  dependsOn("somethingTask")
   doLast {
     println("Test Last")    
   }
