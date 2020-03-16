@@ -52,6 +52,8 @@ category: Jekyll
 |다른 파일/폴더| css 나 images 폴더, favicon.ico 파일같이 앞서 언급하지 않은 다른 모든 디렉토리와 파일들은 있는 그대로 생성된 사이트에 복사한다. 다른 사람들이 만든 사이트는 어떤식으로 생겼는지 궁금하다면, Jekyll 을 사용하는 사이트들이 이미 많이 있으니 살펴보도록 한다.|
 {% endraw %}
 
+### [날짜 형식 설정](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
+
 ### Jekyll Process
 Jekyll 프로젝트 문서의 상단에는 layout을 정의 할 수 있는데 이때의 layout은 _layouts 디렉토리에 정의된 .html파일에 링크된다는 의미이다.  
 _layous 디렉토리의 post.html 문서를 보자.
