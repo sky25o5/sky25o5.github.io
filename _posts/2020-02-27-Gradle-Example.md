@@ -179,7 +179,7 @@ tasks.register("testTasK") {
   }
 }
 ``` -->
-dependsOn()을 통해 작업 의존성을 설정 할 수 있다.  
+dependsOn을 통해 작업 의존성을 설정 할 수 있다.  
 ```
 실행
 gradle testTasK
@@ -210,7 +210,7 @@ repeat(10) { counter ->
     }
 }
 ``` -->
-repaet의 값만큼 task가 생성된다. task0, task1 ... task9  
+times의 값만큼 task가 생성된다. task0, task1 ... task9  
 
 ### 3.3 정의된 task에 대한 종속성 추가
 ```
@@ -331,7 +331,7 @@ Default Cleaning!
 > Task :runner
 Default Running!
 ```
-defaultTasks()가 중복 정의되어 있는 경우, 가장 마지막에 정의된 작업이 적용된다.
+defaultTasks가 중복 정의되어 있는 경우, 가장 마지막에 정의된 작업이 적용된다.
 
 ### 3.6 외부 종속성 정의 ([의존성](https://docs.gradle.org/current/userguide/declaring_dependencies.html))
 ```
