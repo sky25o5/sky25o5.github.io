@@ -1,6 +1,6 @@
 ---
 layout: post
-category: nexus3
+category: Nexus3
 title: 업로드된 jar 삭제
 ---
 Nexus Repository에 업로드된 jar 삭제 가이드

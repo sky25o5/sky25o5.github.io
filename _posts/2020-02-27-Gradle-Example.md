@@ -30,7 +30,7 @@ plugins {
 ``` -->
 
 ### 1.3 Cummunity Plugin
-: Gradle 사용자가 작성한 Custom Plugin (Plugin<T> 인터페이스를 구현)
+: Gradle 사용자가 작성한 Custom Plugin (Plugin<T> 인터페이스를 구현 / [참조](https://docs.gradle.org/current/userguide/custom_plugins.html#custom_plugins))
  - [Cummunity Plugins](https://plugins.gradle.org/)
 ```
 plugins {
